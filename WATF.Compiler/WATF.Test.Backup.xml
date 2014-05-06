@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Executive>
+  <Import>
+    <Package PREFIX="#WebTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.WebTest\bin\Debug\WATF.Plugin.WebTest.dll" />
+    <Package PREFIX="#MSDNTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\MSDNOnline.Test\bin\Debug\MSDNOnline.Test.dll"/>
+    <Package PREFIX="#HPSTPlugin" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.HPST\bin\Debug\WATF.Plugin.HPST.dll"/>
+  </Import>
+  <Test Num="1" Description="first test method">
+    <Step Num="0">
+      <Var NAME="@Var" VALUE ="65535"/>
+    </Step>
+    <!--<Step Num="1">
+      <Action SELECT="WATF.Plugin.WebTest.OpenIEBrowser" INTO="$Page" FROM="#WebTest" WHERE="Url=http://msdn.microsoft.com/en-us/library/default.aspx">
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=SearchInput">
+          <Action SELECT="WATF.Plugin.WebTest.InputText" FROM="#WebTest" WHERE="Text=C#"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlByClass" FROM="#WebTest" WHERE="Tag=td;ClassName=searchButtonTd">
+          <Action SELECT="WATF.Plugin.WebTest.GetFirstChildControl" INTO="$Element" FROM="#WebTest" >
+            <Action SELECT="WATF.Plugin.WebTest.ClickControl" FROM="#WebTest"/>
+          </Action>
+        </Action>
+        <Action SELECT="MSDNOnline.Test.GetPageResultUrlList" INTO="@ResultList" FROM="#MSDNTest" WHERE="Tag=td;ClassName=result"/>
+        <Action SELECT="MSDNOnline.Test.CheckPageMetaData" INTO="@Var" FROM="#MSDNTest" WHERE="PageList=@ResultList;CheckMetaData=NormalizedUrl"/>
+      </Action>
+    </Step>-->
+    <Step Num="2">
+      <Action SELECT="WATF.Plugin.WebTest.OpenIEBrowser" INTO="$Page" FROM="#WebTest" WHERE="Url=http://www.baidu.com">
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=kw">
+          <Action SELECT="WATF.Plugin.WebTest.InputText" FROM="#WebTest" WHERE="Text=黄超"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=su">
+          <Action SELECT ="WATF.Plugin.WebTest.GetDefaultValue" FROM ="#WebTest">
+            <Action SELECT="WATF.Plugin.HPST.Assert.AreEqual" FROM="#HPSTPlugin" WHERE="Expected=百度一下1;Message='Not Equal'"/>
+          </Action>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=su">
+          <Action SELECT="WATF.Plugin.WebTest.ClickControl" FROM="#WebTest"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=1">
+          <Action SELECT ="WATF.Plugin.WebTest.GetInnerText" FROM ="#WebTest">
+            <Action SELECT="WATF.Plugin.HPST.Assert.Contain" FROM="#HPSTPlugin" WHERE="Contain=黄1超;Message=there not contain 黄1超"/>
+          </Action>
+        </Action>
+      </Action>
+    </Step>
+    <!--<Step Num="2">
+        <Action SELECT="Input" FROM="$Var" WHERE="C#"/>
+      </Action>
+      <Action SELECT="PageControl" FROM="$Page" WHERE="ID = su">
+        <Action CLICK=""/>
+      </Action>
+      <Action SELECT="PageControl" FROM="$Page" WHERE="ID = 1">
+        <Action COMPARE="Contains" CONTAINS="百度百科" TRUE="=>success" FALSE="=>fail">
+          <Action MARK="success">
+            <Action SET="Var" VALUE="[Var] put me!"/>
+            <Action PRINT="success" PATH=""/>
+          </Action>
+          <Action MARK="fail">
+            <Action PRINT="fail out put file!" PATH="c:\testmethod.txt"/>
+          </Action>
+        </Action>
+      </Action>
+    </Step>-->
+  </Test>
+</Executive>

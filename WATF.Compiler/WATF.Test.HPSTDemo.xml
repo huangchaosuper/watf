@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Executive>
+  <Import>
+    <Package PREFIX="#WebTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.WebTest\bin\Debug\WATF.Plugin.WebTest.dll" />
+    <Package PREFIX="#HPSTPlugin" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.HPST\bin\Debug\WATF.Plugin.HPST.dll"/>
+  </Import>
+  <Test Num="1" Description="HPST plugin test method">
+    <Step Num="0">
+      <Var NAME="@Var" VALUE ="65535"/>
+    </Step>
+    <Step Num="1">
+      <Action SELECT="WATF.Plugin.WebTest.OpenIEBrowser" INTO="$Page" FROM="#WebTest" WHERE="Url=http://www.baidu.com">
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=kw">
+          <Action SELECT="WATF.Plugin.WebTest.InputText" FROM="#WebTest" WHERE="Text=黄超"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=su">
+          <Action SELECT ="WATF.Plugin.WebTest.GetDefaultValue" FROM ="#WebTest">
+            <Action SELECT="WATF.Plugin.HPST.Assert.AreEqual" FROM="#HPSTPlugin" WHERE="Expected=百度一下1;Message='Not Equal'"/>
+          </Action>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=su">
+          <Action SELECT="WATF.Plugin.WebTest.ClickControl" FROM="#WebTest"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=1">
+          <Action SELECT ="WATF.Plugin.WebTest.GetInnerText" FROM ="#WebTest">
+            <Action SELECT="WATF.Plugin.HPST.Assert.Contain" FROM="#HPSTPlugin" WHERE="Contain=黄超;Message=there not contain 黄超"/>
+          </Action>
+        </Action>
+      </Action>
+    </Step>
+  </Test>
+</Executive>

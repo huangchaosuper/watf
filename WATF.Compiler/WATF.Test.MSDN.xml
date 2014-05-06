@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Executive>
+  <Import>
+    <Package PREFIX="#WebTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.WebTest\bin\Debug\WATF.Plugin.WebTest.dll" />
+    <Package PREFIX="#MSDNTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\MSDNOnline.Test\bin\Debug\MSDNOnline.Test.dll"/>
+  </Import>
+  <Test Num="1" Description="first test method">
+    <Step Num="0">
+      <Var NAME="@Var" VALUE ="65535"/>
+    </Step>
+    <Step Num="1">
+      <Action SELECT="WATF.Plugin.WebTest.OpenIEBrowser" INTO="$Page" FROM="#WebTest" WHERE="Url=http://msdn.microsoft.com/en-us/library/default.aspx">
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=SearchInput">
+          <Action SELECT="WATF.Plugin.WebTest.InputText" FROM="#WebTest" WHERE="Text=C#"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlByClass" FROM="#WebTest" WHERE="Tag=td;ClassName=searchButtonTd">
+          <Action SELECT="WATF.Plugin.WebTest.GetFirstChildControl" INTO="$Element" FROM="#WebTest" >
+            <Action SELECT="WATF.Plugin.WebTest.ClickControl" FROM="#WebTest"/>
+          </Action>
+        </Action>
+        <Action SELECT="MSDNOnline.Test.GetPageResultUrlList" INTO="@ResultList" FROM="#MSDNTest" WHERE="Tag=td;ClassName=result"/>
+        <Action SELECT="MSDNOnline.Test.CheckPageMetaData" INTO="@Var" FROM="#MSDNTest" WHERE="PageList=@ResultList;CheckMetaData=NormalizedUrl"/>
+      </Action>
+    </Step>
+  </Test>
+</Executive>

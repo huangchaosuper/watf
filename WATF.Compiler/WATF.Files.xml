@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigFile>
+  <Load NAME="WATF.Test.HPSTDemo.xml" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Compiler\"/>
+</ConfigFile>

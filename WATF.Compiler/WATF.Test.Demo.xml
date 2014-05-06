@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Executive>
+  <Import>
+    <Package PREFIX="#WebTest" PATH="C:\Users\huanchao\Desktop\WATF_1.0.0.1\WATF.Plugin.WebTest\bin\Debug\WATF.Plugin.WebTest.dll" />
+  </Import>
+  <Test Num="1" Description="Baidu test method">
+    <Step Num="0">
+      <Var NAME="@Var" VALUE ="65535"/>
+    </Step>
+    <Step Num="1">
+      <Action SELECT="WATF.Plugin.WebTest.OpenIEBrowser" INTO="$Page" FROM="#WebTest" WHERE="Url=http://www.baidu.com">
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=kw">
+          <Action SELECT="WATF.Plugin.WebTest.InputText" FROM="#WebTest" WHERE="Text=黄超"/>
+        </Action>
+        <Action SELECT="WATF.Plugin.WebTest.GetControlById" INTO="$Element" FROM="#WebTest" WHERE="Id=su">
+          <Action SELECT="WATF.Plugin.WebTest.ClickControl" FROM="#WebTest">
+            <Action SELECT="WATF.Plugin.WebTest.WaitForPageReady" FROM="#WebTest" WHERE="Page=$Page"/>
+          </Action>
+        </Action>
+      </Action>
+    </Step>
+  </Test>
+</Executive>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FC2224D-7F72-46D1-AE53-E41F0305BB59}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WATF.Compiler</RootNamespace>
+    <AssemblyName>WATF.Compiler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="ConfigFile\ConfigFile.cs" />
+    <Compile Include="ConfigFile\Load\Load.cs" />
+    <Compile Include="ConfigFile\Load\Name.cs" />
+    <Compile Include="ConfigFile\Load\Path.cs" />
+    <Compile Include="Exception\CompilerException.cs" />
+    <Compile Include="Executive\Executive.cs" />
+    <Compile Include="Executive\Import\Import.cs" />
+    <Compile Include="Executive\Import\Package\Package.cs" />
+    <Compile Include="Executive\Import\Package\Path.cs" />
+    <Compile Include="Executive\Import\Package\Prefix.cs" />
+    <Compile Include="Executive\Test\Step\Action\Action.cs" />
+    <Compile Include="Executive\Test\Step\Action\Keyword.cs" />
+    <Compile Include="Executive\Test\Step\Action\Master\Select.cs" />
+    <Compile Include="Executive\Test\Step\Step.cs" />
+    <Compile Include="Executive\Test\Step\Var\Var.cs" />
+    <Compile Include="Executive\Test\Test.cs" />
+    <Compile Include="GlobalDefine.cs" />
+    <Compile Include="Interface\IWATFApp.cs" />
+    <Compile Include="Interface\WATFType.cs" />
+    <Compile Include="Interface\WATFPathNavigator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WATF.Test.Backup.xml" />
+    <Content Include="WATF.Test.HPSTDemo.xml" />
+    <Content Include="WATF.Test.MSDN.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WATF.Files.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WATF.Test.Demo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WATF.Plugin\WATF.Plugin.csproj">
+      <Project>{23C867DC-8084-497D-91CA-162930D16AC6}</Project>
+      <Name>WATF.Plugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
