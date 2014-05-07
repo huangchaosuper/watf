@@ -1,0 +1,6 @@
+    step id=Flow Diagram , name=Flow Diagram , type=Flow Diagram
+    step id=170755631914638 , name=StartActivity1 , type=HP.ST.Ext.BasicActivities.StartActivity
+    step id=1536801031914638 , name=Loop2 , type=HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop`1[Loop2Input]
+       step id=632080151536801031914638,1 , name=Sequence5 , type=HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence
+         step id=41962596632080151536801031914638,1 , name=WATFActivity4 , type=WATF.Addin.WATFActivity
+    step id=3684927431914638 , name=EndActivity3 , type=HP.ST.Ext.BasicActivities.EndActivity

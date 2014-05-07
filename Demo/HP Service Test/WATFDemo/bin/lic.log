@@ -1,0 +1,420 @@
+
+
+*** Start license manager on: 10/31/2011 11:37:23 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 10/31/2011 11:40:35 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 10/31/2011 11:41:54 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 10/31/2011 11:43:09 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 10/31/2011 12:57:10 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 10/31/2011 12:58:05 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/1/2011 13:06:45 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/1/2011 15:59:33 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:37:52 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:39:36 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:41:19 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:42:08 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:44:47 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:46:37 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 20:49:01 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:24:02 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:25:18 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:27:13 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:28:57 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:47:52 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:50:47 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:54:53 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 21:58:48 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 22:03:18 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 22:04:26 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 22:06:17 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 22:10:11 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0
+
+
+*** Start license manager on: 11/8/2011 22:12:14 ***
+License mode = Seat
+trying to check out license: UnifiedFunctionalTesting,1.0
+trying to check out license: ServiceTest,9.0
+license is VALID: ServiceTest,9.0
+trying to check out license: UnifiedFunctionalTesting,1.1
+before: UnifiedFunctionalTesting,1.1
+exception: UnifiedFunctionalTesting,1.1 - demo license is probably out of date or not exists
+trying to check out license: UnifiedFunctionalTesting,1.2
+before: UnifiedFunctionalTesting,1.2
+exception: UnifiedFunctionalTesting,1.2 - demo license is probably out of date or not exists
+Select seat license: 1 licenses exists
+Found regular seat license: ServiceTest 9.0

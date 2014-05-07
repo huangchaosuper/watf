@@ -1,0 +1,15 @@
+2011-11-08 22:12:16,215 [1] INFO  UserLogger [(null)] - Step 'Start' : Step 'Start' Started
+2011-11-08 22:12:16,254 [1] DEBUG UserLogger [(null)] - Step 'Start' : Parent Step: 'test'
+2011-11-08 22:12:16,325 [1] INFO  UserLogger [(null)] - Step 'Start' ended successfully
+2011-11-08 22:12:16,332 [1] INFO  UserLogger [(null)] - Step 'Test Flow' : Step 'Test Flow' Started
+2011-11-08 22:12:16,338 [1] DEBUG UserLogger [(null)] - Step 'Test Flow' : Parent Step: 'test'
+2011-11-08 22:12:16,365 [1] INFO  UserLogger [(null)] - Step 'Iteration 1' : Step 'Iteration 1' Started
+2011-11-08 22:12:16,370 [1] DEBUG UserLogger [(null)] - Step 'Iteration 1' : Parent Step: 'Loop2'
+2011-11-08 22:12:16,385 [1] INFO  UserLogger [(null)] - Step 'SBSMethodTestImpl2' : Step 'SBSMethodTestImpl2' Started
+2011-11-08 22:12:16,389 [1] DEBUG UserLogger [(null)] - Step 'SBSMethodTestImpl2' : Parent Step: 'Sequence11'
+2011-11-08 22:12:16,544 [1] INFO  UserLogger [(null)] - Step 'SBSMethodTestImpl2' ended successfully
+2011-11-08 22:12:16,561 [1] INFO  UserLogger [(null)] - Step 'Iteration 1' ended successfully
+2011-11-08 22:12:16,577 [1] INFO  UserLogger [(null)] - Step 'Test Flow' ended successfully
+2011-11-08 22:12:16,581 [1] INFO  UserLogger [(null)] - Step 'End' : Step 'End' Started
+2011-11-08 22:12:16,586 [1] DEBUG UserLogger [(null)] - Step 'End' : Parent Step: 'test'
+2011-11-08 22:12:16,612 [1] INFO  UserLogger [(null)] - Step 'End' ended successfully

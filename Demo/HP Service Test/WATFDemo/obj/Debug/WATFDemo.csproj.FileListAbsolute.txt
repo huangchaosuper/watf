@@ -1,0 +1,5 @@
+C:\Users\huanchao\Desktop\WATFDemo\WATFDemo\bin\Script.dll
+C:\Users\huanchao\Desktop\WATFDemo\WATFDemo\bin\Script.pdb
+C:\Users\huanchao\Desktop\WATFDemo\WATFDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\huanchao\Desktop\WATFDemo\WATFDemo\obj\Debug\Script.dll
+C:\Users\huanchao\Desktop\WATFDemo\WATFDemo\obj\Debug\Script.pdb

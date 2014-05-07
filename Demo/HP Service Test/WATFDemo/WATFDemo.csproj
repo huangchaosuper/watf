@@ -1,0 +1,130 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{94A9E6FD-64D4-4EFC-9389-949AFD439980}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WATFDemo</RootNamespace>
+    <AssemblyName>Script</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ReferencePath>
+        $(ST_INSTALL_PATH)\bin\;
+        $(ST_INSTALL_PATH)\addins\ServiceTest\BindingImpl\;
+        $(ST_INSTALL_PATH)\addins\ServiceTest\BaseCheckPoints\;
+        $(ST_INSTALL_PATH)\AddIns\ServiceTest\BasicActivities\;
+      
+$(ST_INSTALL_PATH)\.\AddIns\CustomerAddins\WATF;
+$(ST_INSTALL_PATH)\.\AddIns\CustomerAddins\JavaUnit;
+$(ST_INSTALL_PATH)\.\AddIns\CustomerAddins\JavaCall;</ReferencePath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OutputPath>.\bin\</OutputPath>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>x86</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="HP.ST.Ext.BasicActivities">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.BindingImpl.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.CheckpointLogicOperators.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.CheckpointRules.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Ext.JavaCallActivity">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.JVMLoader.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.ReportCreator.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.ReporterFWK.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.RunTimeFWK.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.SOAReplayAPI.dll">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HP.ST.Fwk.UFTLicensing.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Shared.Utilities.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HP.ST.Types">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JavaUnit">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WATF.Addin">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Xml.Schema.Linq.Signed.dll">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Checkpoints.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Resolver.cs" />
+    <Compile Include="TestEntities.cs" />
+    <Compile Include="TestUserCode.cs" />
+    <Compile Include="Utilities.cs" />
+    <None Include="Log\vtd_log.config" />
+    <None Include="WATFDemo.st" />
+  </ItemGroup>
+</Project>
